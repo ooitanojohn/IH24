@@ -11,15 +11,19 @@
 
 <body>
   <main>
-    <a href=""><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 24px;height: 24px;">
+    <a href="" class="prev"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width: 24px;height: 24px;">
         <path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path>
       </svg></a>
+
     <article>
+      <ul class="fixed-Thumb">
+        <li><img alt="小さい写真"></li>
+        <li><img alt="小さい写真"></li>
+        <!-- <li><img alt="小さい写真"></li>
+        <li><img alt="小さい写真"></li> -->
+      </ul>
       <div id="fixedImg">
-        <ul>
-          <li><img alt="小さい写真"></li>
-        </ul>
-        <p><img alt="大きい写真"></p>
+        <p><img alt="大きい写真" width="100%" height="100%"></p>
       </div>
       <div class="i-detail-container">
         <section>
