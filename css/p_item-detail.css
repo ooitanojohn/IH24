@@ -9,7 +9,7 @@ main {
 }
 
 article {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -299,7 +299,7 @@ article .i-detail-container section:nth-of-type(5) form .btn:hover {
 }
 
 aside {
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
 }
 
